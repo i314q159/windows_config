@@ -1,0 +1,3 @@
+udp://tracker.opentrackr.org:1337/announce
+udp://tracker.torrent.eu.org:451/announce
+http://open.acgtracker.com:1096/announce
