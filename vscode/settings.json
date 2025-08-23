@@ -67,10 +67,52 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false,
-        "lua": false
+        "lua": false,
+        "java": false
     },
-    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.nextEditSuggestions.enabled": false,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "docker.extension.enableComposeLanguageServer": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "update.showReleaseNotes": false,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.createEnvironment.trigger": "off",
+    "database-client.autoSync": true,
+    "dbcode.connections": [
+        {
+            "connectionId": "e6N0bmN5S2-gkBvUWcEs-",
+            "name": "mysql",
+            "driver": "mysql",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 3306,
+            "ssl": false,
+            "username": "root",
+            "password": "",
+            "savePassword": "secretStorage",
+            "readOnly": false,
+            "connectionTimeout": 30,
+            "driverOptions": {
+                "retrievePublickey": true
+            }
+        }
+    ],
+    "dbcode.resultLocation": "below",
+    "python.defaultInterpreterPath": "c:\\Program Files\\Python313\\python.exe",
+    "yaml.schemas": {
+        "c:\\Users\\i314q159\\.vscode\\extensions\\continue.continue-1.0.19-win32-x64\\config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
 }
