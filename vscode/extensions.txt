@@ -1,7 +1,9 @@
 antfu.icons-carbon
 brandonfowler.exe-runner
 catppuccin.catppuccin-vsc
+christian-kohler.path-intellisense
 davidanson.vscode-markdownlint
+docker.docker
 donjayamanne.githistory
 dreamcatcher45.podmanager
 editorconfig.editorconfig
@@ -15,6 +17,8 @@ github.vscode-pull-request-github
 golang.go
 lokalise.i18n-ally
 mhutchie.git-graph
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
 ms-edgedevtools.vscode-edge-devtools
 ms-python.autopep8
 ms-python.black-formatter

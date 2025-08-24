@@ -79,7 +79,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "update.showReleaseNotes": false,
-    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
@@ -115,4 +115,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.unicodeHighlight.ambiguousCharacters": false,
+    "makefile.configureOnOpen": true,
 }
