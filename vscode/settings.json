@@ -107,7 +107,7 @@
     "dbcode.resultLocation": "below",
     "python.defaultInterpreterPath": "c:\\Program Files\\Python313\\python.exe",
     "yaml.schemas": {
-        "c:\\Users\\i314q159\\.vscode\\extensions\\continue.continue-1.0.19-win32-x64\\config-yaml-schema.json": [
+        "file:///c%3A/Users/i314q159/.vscode/extensions/continue.continue-1.2.1-win32-x64/config-yaml-schema.json": [
             ".continue/**/*.yaml"
         ]
     },
@@ -116,4 +116,7 @@
     },
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "makefile.configureOnOpen": true,
+    "remote.SSH.remotePlatform": {
+        "192.168.1.43": "linux"
+    },
 }

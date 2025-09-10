@@ -6,14 +6,6 @@ Set-Alias open explorer
 #     python d:/repo/repo $args
 # }
 
-# ghproxy
-function ghproxy-git {
-    git clone https://ghproxy.net/$args
-}
-function ghproxy-aria2c {
-    aria2c https://ghproxy.net/$args
-}
-
 # magnet link download
 function hacg {
     $hash = $args[0]
