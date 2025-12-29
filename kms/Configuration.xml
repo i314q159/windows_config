@@ -1,0 +1,15 @@
+﻿<Configuration>
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021" SourcePath="C:\Users\zjuche\Downloads\Office Tool" Version="16.0.14334.20296">
+    <Product ID="ProPlus2021Volume">
+      <Language ID="zh-cn" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+  </Add>
+  <Extend DownloadFirst="true" />
+</Configuration>
