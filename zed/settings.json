@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "disable_ai": true,
   "tabs": {
     "show_diagnostics": "off",
     "activate_on_close": "left_neighbour",
@@ -92,4 +93,9 @@
   "ui_font_size": 16.0,
   "buffer_font_size": 15.0,
   "theme": "Catppuccin Mocha",
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "material-icon-theme": true,
+    "lua": true,
+  },
 }
