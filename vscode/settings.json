@@ -1,122 +1,103 @@
 {
-    "debug.console.historySuggestions": false,
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorStyle": "block",
-    "editor.fontFamily": "Cascadia Code, Hack",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 17,
-    "editor.minimap.renderCharacters": false,
-    "editor.stickyScroll.enabled": false,
-    "editor.quickSuggestions": {
-        "other": "on",
-        "comments": "on",
-        "strings": "on"
-    },
-    "explorer.compactFolders": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "extensions.ignoreRecommendations": true,
-    "files.autoGuessEncoding": true,
-    "files.autoSave": "afterDelay",
-    "files.insertFinalNewline": true,
-    "git.autofetch": true,
-    "git.autorefresh": true,
-    "git.confirmSync": false,
-    "git.openAfterClone": "whenNoFolderOpen",
-    "git.openRepositoryInParentFolders": "never",
-    "github.gitProtocol": "ssh",
-    "go.toolsManagement.autoUpdate": true,
-    "json.schemaDownload.enable": false,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic",
-    "redhat.telemetry.enabled": false,
-    "security.workspace.trust.enabled": false,
-    "security.workspace.trust.startupPrompt": "never",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "terminal.integrated.enablePersistentSessions": false,
-    "terminal.integrated.env.windows": {},
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.shellIntegration.history": 0,
-    "window.restoreWindows": "none",
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "workbench.editor.enablePreview": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "icons-carbon",
-    "workbench.startupEditor": "none",
-    "zig.initialSetupDone": true,
-    "zig.path": "",
-    "zig.zls.path": "",
-    "remote.SSH.configFile": "~/.ssh/config",
-    "remote.autoForwardPorts": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "diffEditor.ignoreTrimWhitespace": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.minimap.enabled": false,
-    "[lua]": {
-        "editor.defaultFormatter": "sumneko.lua"
-    },
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "lua": false,
-        "java": false
-    },
-    "github.copilot.nextEditSuggestions.enabled": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "docker.extension.enableComposeLanguageServer": false,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "update.showReleaseNotes": false,
-    "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "python.createEnvironment.trigger": "off",
-    "database-client.autoSync": true,
-    "dbcode.connections": [
-        {
-            "connectionId": "e6N0bmN5S2-gkBvUWcEs-",
-            "name": "mysql",
-            "driver": "mysql",
-            "connectionType": "host",
-            "host": "localhost",
-            "port": 3306,
-            "ssl": false,
-            "username": "root",
-            "password": "",
-            "savePassword": "secretStorage",
-            "readOnly": false,
-            "connectionTimeout": 30,
-            "driverOptions": {
-                "retrievePublickey": true
-            }
-        }
-    ],
-    "dbcode.resultLocation": "below",
-    "python.defaultInterpreterPath": "c:\\Program Files\\Python313\\python.exe",
-    "yaml.schemas": {
-        "file:///c%3A/Users/i314q159/.vscode/extensions/continue.continue-1.2.1-win32-x64/config-yaml-schema.json": [
-            ".continue/**/*.yaml"
-        ]
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "makefile.configureOnOpen": true,
-    "remote.SSH.remotePlatform": {
-        "192.168.1.43": "linux"
-    },
+  "debug.console.historySuggestions": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block",
+  "editor.fontFamily": "Cascadia Code, Hack",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.minimap.renderCharacters": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.autorefresh": true,
+  "git.confirmSync": false,
+  "git.openAfterClone": "whenNoFolderOpen",
+  "git.openRepositoryInParentFolders": "never",
+  "github.gitProtocol": "ssh",
+  "go.toolsManagement.autoUpdate": true,
+  "json.schemaDownload.enable": false,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.shellIntegration.history": 0,
+  "window.restoreWindows": "none",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "zig.initialSetupDone": true,
+  "zig.path": "",
+  "zig.zls.path": "",
+  "remote.SSH.configFile": "~/.ssh/config",
+  "remote.autoForwardPorts": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "lua": false,
+    "java": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "docker.extension.enableComposeLanguageServer": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.showReleaseNotes": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.createEnvironment.trigger": "off",
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+  "C_Cpp.autocomplete": "enable",
+  "C_Cpp.intelliSenseEngine": "enbale",
+  "makefile.configureOnOpen": true,
+  "python.defaultInterpreterPath": "c:\\Program Files\\Python313\\python.exe",
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "vscode-edge-devtools.webhintInstallNotification": true,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "jdk.telemetry.enabled": false,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "clangd.checkUpdates": false
 }
