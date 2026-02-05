@@ -41,9 +41,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "zig.initialSetupDone": true,
-  "zig.path": "",
-  "zig.zls.path": "",
   "remote.SSH.configFile": "~/.ssh/config",
   "remote.autoForwardPorts": false,
   "[jsonc]": {
@@ -80,24 +77,26 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.createEnvironment.trigger": "off",
+  "python.defaultInterpreterPath": "c:\\Program Files\\Python314\\python.exe",
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
   "C_Cpp.autocomplete": "enable",
-  "C_Cpp.intelliSenseEngine": "enbale",
-  "makefile.configureOnOpen": true,
-  "python.defaultInterpreterPath": "c:\\Program Files\\Python313\\python.exe",
+  "C_Cpp.intelliSenseEngine": "disabled",
   "cmake.showConfigureWithDebuggerNotification": false,
   "vscode-edge-devtools.webhintInstallNotification": true,
   "cmake.pinnedCommands": [
     "workbench.action.tasks.configureTaskRunner",
     "workbench.action.tasks.runTask"
   ],
-  "jdk.telemetry.enabled": false,
   "diffEditor.renderSideBySide": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "[cpp]": {
-    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-  },
-  "clangd.checkUpdates": false
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/msys64/mingw32/bin",
+    "C:/msys64/mingw64/bin",
+    "C:/msys64/clang32/bin",
+    "C:/msys64/clang64/bin",
+    "C:/msys64/clangarm64/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "debug.onTaskErrors": "debugAnyway"
 }
