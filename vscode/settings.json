@@ -43,35 +43,14 @@
   "workbench.startupEditor": "none",
   "remote.SSH.configFile": "~/.ssh/config",
   "remote.autoForwardPorts": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "diffEditor.ignoreTrimWhitespace": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[lua]": {
     "editor.defaultFormatter": "sumneko.lua"
   },
   "github.copilot.enable": {
     "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "lua": false,
-    "java": false
   },
   "github.copilot.nextEditSuggestions.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "docker.extension.enableComposeLanguageServer": false,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "update.showReleaseNotes": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "[python]": {
@@ -80,10 +59,7 @@
   "python.defaultInterpreterPath": "c:\\Program Files\\Python314\\python.exe",
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
-  "C_Cpp.autocomplete": "enable",
-  "C_Cpp.intelliSenseEngine": "disabled",
   "cmake.showConfigureWithDebuggerNotification": false,
-  "vscode-edge-devtools.webhintInstallNotification": true,
   "cmake.pinnedCommands": [
     "workbench.action.tasks.configureTaskRunner",
     "workbench.action.tasks.runTask"
@@ -98,5 +74,4 @@
     "C:/msys64/clangarm64/bin",
     "C:/msys64/ucrt64/bin"
   ],
-  "debug.onTaskErrors": "debugAnyway"
 }
