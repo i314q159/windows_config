@@ -1,0 +1,1 @@
+https://mirrors.cernet.edu.cn/msys2/distrib/msys2-x86_64-latest.sfx.exe
