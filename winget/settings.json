@@ -7,8 +7,8 @@
   // },
 
   "installBehavior": {
-    "portablePackageUserRoot": "D:/bin/",
-    "portablePackageMachineRoot": "D:/bin/"
+    "portablePackageUserRoot": "C:/Users/i314q159/bin/",
+    "portablePackageMachineRoot": "C:/Users/i314q159/bin/"
   },
 
   "visual": {
