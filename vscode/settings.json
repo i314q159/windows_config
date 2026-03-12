@@ -56,25 +56,26 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.defaultInterpreterPath": "c:\\Program Files\\Python314\\python.exe",
+  "python.createEnvironment.trigger": "off",
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
-  "cmake.showConfigureWithDebuggerNotification": false,
-  "cmake.pinnedCommands": [
-    "workbench.action.tasks.configureTaskRunner",
-    "workbench.action.tasks.runTask"
-  ],
   "diffEditor.renderSideBySide": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "cmake.additionalCompilerSearchDirs": [
-    "C:/msys64/mingw32/bin",
-    "C:/msys64/mingw64/bin",
-    "C:/msys64/clang32/bin",
-    "C:/msys64/clang64/bin",
-    "C:/msys64/clangarm64/bin",
     "C:/msys64/ucrt64/bin"
   ],
-  "C_Cpp.clang_format_fallbackStyle": "none",
-  "C_Cpp.clang_format_style": "none",
-  "C_Cpp.formatting": "disabled",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "remote.SSH.remotePlatform": {
+    "192.168.1.73": "linux",
+    "192.168.1.202": "linux"
+  },
+  "workbench.sideBar.location": "right",
+  "chat.viewSessions.orientation": "stacked",
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
