@@ -56,26 +56,27 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.createEnvironment.trigger": "off",
+  "python.defaultInterpreterPath": "c:\\Users\\zjuche\\.local\\bin\\python3.14.exe",
   "editor.stickyScroll.enabled": false,
-  "editor.minimap.enabled": false,
   "diffEditor.renderSideBySide": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "cmake.additionalCompilerSearchDirs": [
-    "C:/msys64/ucrt64/bin"
-  ],
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
   "docker.extension.dockerEngineAvailabilityPrompt": false,
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
   "remote.SSH.remotePlatform": {
     "192.168.1.73": "linux",
-    "192.168.1.202": "linux"
+    "192.168.1.202": "linux",
+    "192.168.1.203": "linux"
   },
   "workbench.sideBar.location": "right",
   "chat.viewSessions.orientation": "stacked",
   "diffEditor.hideUnchangedRegions.enabled": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "makefile.configureOnOpen": true,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.initialHint": false,
 }
